@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin: auto;
+  padding: 0 20px;
+  background-color: #eee;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+  "Helvetica Neue", sans-serif;
+  line-height: 1.6em;
+  }
+  
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+  font-size: 17px;
+}
+
+#main-content {
+  position: relative;
+  float: left;
+  margin-top: 25px;
+  margin-left: 100px;
+  }
+
+#side-bar {
+  float: right;
+  position: relative;
+  padding: 60px;
+  margin-right: 180px;
+  margin-top: 70px;
+  width: 30%;
+}
+
+#img-with-text {
+  border: 1px solid #b0d2cb;
+  padding-top: 20px;
+  margin: 0 200px;
+}
+
+#main-title {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+  "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  padding: 50px 0;
+}
+
+#magician {
+  font-size: 35px;
+  color: #777777;
+}
+
+#messi {
+  display: block;
+  margin: auto;
+  width: 1100px;
+}
+
+#about {
+  padding: 20px;
+}
+
+#about-messi {
+  font-size: 30px;
+  display: block;
+}
+
+.about-paragraph {
+  font-size: 17px;
+}
+
+.blockquote {
+  padding: 20px;
+  font-size: 17px;
+  border-left: 10px solid #b0d2cb;
+  margin: 0 10px;
+  margin-bottom: 5px;
+}
+
+.blockquote-text {
+  font-family: 'Gelasio', serif;
+}
+
+.blockquote-credit {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Main Styling */
+body {
+  line-height: 1.6em;
+  font-family: proxima-nova, sans-serif;
+}
+
+#Timeline {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+  "Helvetica Neue", sans-serif;
+}
+
+.dates {
+  float: left;
+  text-align: center;
+  clear: left;
+  border-top: 2px solid #ccc;
+  font-weight: bold;
+  width: 100px;
+  height: 55px;
+}
+
+.events {
+  float: left;
+  padding-left: 10px;
+  clear: right;
+  width: 625px;
+  height: 55px;
+  border-top: 2px solid #ccc;
+  background-color: #e6f3f1;
+}
+
+.award-name{
+  float: left;
+  clear: left;
+  width: 30%;
+  border-top: 2px solid #ccc;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.award-date {
+  float: left;
+  clear: right;
+  width: 70%;
+  border-top: 2px solid #ccc;
+  background-color: #e6f3f1;
+  padding: 2px;
+  padding-left: 10px;
+}
+
+#award-date-last {
+  border-bottom: 2px solid #ccc;
+}
+
+#award-name-last {
+  border-bottom: 2px solid #ccc;
+}
+
+#events-last {
+  border-bottom: 2px solid #ccc;
+}
+
+#dates-last {
+  border-bottom: 2px solid #ccc;
+}
+
+#ballon {
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+#footer {
+  text-align: center;
+  font-size: 20px;
+  height: 50px;
+}
+
+#awards {
+  text-align: center;
+}
+
+/* Mobile */
+@media(max-width: 1100px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #img-with-text {
+    width: 600px;
+  }
+
+  #messi {
+    width: 550px;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .dates {
+    padding-right: 19px;
+    text-align: center;
+    clear: left;
+    border-top: 2px solid #ccc;
+    font-weight: bold;
+    width: 25%;
+    height: 80px;
+  }
+  
+  .events {
+    
+    padding: 0 5px 0 10px;
+    clear: right;
+    width: 75%;
+    height: 80px;
+    border-top: 2px solid #ccc;
+    background-color: #e6f3f1;
+  }
+
+  .award-name{
+    height: 83px;
+    clear: left;
+    width: 25%;
+    border-top: 2px solid #ccc;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .award-date {
+    clear: right;
+    width: 75%;
+    border-top: 2px solid #ccc;
+    background-color: #e6f3f1;
+    padding: 2px;
+    padding-left: 10px;
+    height: 83px;
+  }
+
+  #side-bar {
+    width: 50%;
+    height: 100%;
+    background-color: #eee;
+    margin-left: 180px;
+  }
+
+  #Timeline {
+    text-align: center;
+  } 
+
+  #main-content {
+    width: 50%;
+    height: 100%;
+    margin-right: 100px;
+  }
+
+}
