@@ -60,7 +60,8 @@
 #messi {
   display: block;
   margin: auto;
-  width: 1100px;
+  width: 100%;
+  padding: 0 10px;
 }
 
 #about {
@@ -208,7 +209,8 @@ a:hover {
   }
 
   #messi {
-    width: 550px;
+    width: 100%;
+    padding: 0 10px;
   }
 
   #header {
@@ -246,7 +248,7 @@ a:hover {
   }
 
   .award-name{
-    height: 83px;
+    height: 100%;
     clear: left;
     width: 25%;
     border-top: 2px solid #ccc;
@@ -262,7 +264,7 @@ a:hover {
     background-color: #e6f3f1;
     padding: 2px;
     padding-left: 10px;
-    height: 83px;
+    height: 108px;
   }
 
   #side-bar {
@@ -282,4 +284,104 @@ a:hover {
     margin-right: 100px;
   }
 
+  #ballon {
+    width: 100%;
+  }
+
+}
+
+@media(max-width: 400px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    line-height: 0.8em;
+  }
+
+  #img-with-text {
+    width: 350px;
+  }
+
+  #messi {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .dates {
+    padding-right: 19px;
+    text-align: center;
+    clear: left;
+    border-top: 2px solid #ccc;
+    font-weight: bold;
+    width: 25%;
+    height: 80px;
+  }
+  
+  .events {
+    
+    padding: 0 5px 0 10px;
+    clear: right;
+    width: 75%;
+    height: 80px;
+    border-top: 2px solid #ccc;
+    background-color: #e6f3f1;
+  }
+
+  .award-name{
+    height: 100%;
+    clear: left;
+    width: 25%;
+    border-top: 2px solid #ccc;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .award-date {
+    clear: right;
+    width: 75%;
+    border-top: 2px solid #ccc;
+    background-color: #e6f3f1;
+    padding: 2px;
+    padding-left: 10px;
+    height: 108px;
+  }
+
+  #side-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    margin-left: 180px;
+  }
+
+  #Timeline {
+    text-align: center;
+  } 
+
+  #main-content {
+    width: 100%;
+    height: 100%;
+    margin-right: 100px;
+  }
+
+  #ballon {
+    width: 100%;
+  }
 }
